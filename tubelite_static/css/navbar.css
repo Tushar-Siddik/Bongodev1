@@ -1,0 +1,130 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    height: 70px;
+    font-size: 30px;
+    padding: 0 15px;    
+    align-items:center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: rgb(22, 22, 22);
+    z-index: 999;
+}
+
+.nav-left{
+    max-width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bx-menu{
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.bx-menu:hover{
+    background-color: rgb(77, 77, 77);
+}
+
+.nav-left img{
+    width: 50%;
+    height: 30px;
+    margin-left: 15px;
+}
+
+.nav-center{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 600px;
+}
+
+.search-bar{    
+    width: 30vw;
+    font-size: 14px;
+    padding: 12px 0;
+    border: 1px solid rgb(77, 77, 77);
+    background-color: rgb(22, 22, 22);
+    border-radius: 20px 0 0 20px;
+}
+
+.search-bar::placeholder{
+    color: #999;
+}
+
+.nav-center>input{
+    color: white;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.bx-search{
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 1px solid rgb(77, 77, 77);
+    border-radius: 0 20px 20px 0;
+    background-color: rgb(41, 41, 41);
+    margin-left: -1px;
+}
+
+.bxs-microphone{
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: rgb(29, 29, 29);
+    margin-left: 8px;
+}
+
+.bxs-microphone:hover{
+    background-color: rgb(41, 41, 41);
+}
+
+.nav-right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-right .bx{
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.nav-right .bx:hover{
+    background-color: rgb(77, 77, 77);
+}
+
+.notificaton{
+    position: relative;
+}
+
+.notificaton-dot{
+    position: absolute;
+    font-size: 10px;
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    border-radius: 50%;
+    top: 8px;
+    right: 8px;
+}
+
+.nav-right img{
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.bx:hover, img:hover{
+    cursor: pointer;
+}
+

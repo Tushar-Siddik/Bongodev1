@@ -1,0 +1,75 @@
+body{
+    background-color: black;
+    margin-left: 20px;
+}
+.profile{
+    width: 250px;
+    height: 100px;
+}
+
+.profile_image_container img{
+    float: left;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+}
+.profile_name{
+    text-decoration:double;
+    float: right;
+    font-size: 28px;
+    color: white;
+}
+.active_dot_back{
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+    background-color: black;
+    float: left;
+    margin-top: 35px;
+    margin-left: -10px;
+}
+
+.active_dot{
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    float: left;
+    border-radius: 5px;
+    margin-top: 37px;
+    margin-left:-12px;
+}
+
+.time_m{
+    color:#b8aeae;
+    font-size: 12px;
+    margin-top: 3px;
+    margin-left: 25px;
+    float: left;
+}
+
+.status{
+    margin-top: -30px;
+    width: 250px;
+    font-size: 16px;
+    color: white;
+    text-align: left;
+    line-height: 22px;
+}
+.button button{
+    margin-top: 20px;
+    width: 250px;
+    height: 60px;
+    color: white;
+    font-size: 25px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button button:hover{
+    background-color: #232323;
+}
+button > a{
+    color:white;
+    text-decoration: none;
+}

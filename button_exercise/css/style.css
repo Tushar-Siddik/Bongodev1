@@ -1,0 +1,248 @@
+main{
+    height: 70vh;
+    background-color: rgb(18, 18, 54);
+}
+h2{
+    color: white;
+}
+
+article{
+    display: inline-block;
+    margin: 20px 0 0 20px;
+}
+
+.uber_back{
+    background-color: white;
+    /* width: 120px;
+    height: 40px; */
+    padding: 10px;
+}
+
+.uber_back > button{
+    background-color: black;
+    /* width: 120px;
+    height: 40px; */
+    width: 100%;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+}
+.uber_back > button > a{
+    color: white;
+    text-decoration: none;
+}
+
+.Amazon_back{
+    background-color: white;
+    /* width: 200px;
+    height: 40px; */
+    padding: 10px;
+}
+
+.Amazon_back > button{
+    background-color: rgb(255, 216, 20);
+    /* width: 200px;
+    height: 40px; */
+    width: 100%;
+    padding: 10px 45px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+}
+
+.Amazon_back > button > a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.github_back{
+    background-color: white;
+    /* width: 120px;
+    height: 50px; */
+    padding: 5px 10px;
+}
+
+.github_back > button{
+    background-color: rgb(46, 164, 79);
+    /* width: 120px;
+    height: 50px; */
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+}
+
+.github_back > button > a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.link_back{
+    background-color: white;
+    width: 300px;
+    /* height: 40px; */
+    padding: 5px;
+}
+
+.link_apply{
+    background-color: rgb(10, 102, 194);
+    /* width: 200px;
+    height: 40px; */
+    width: 72%;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.link_apply > a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.link_save{
+    background-color: transparent;
+    border: 1px solid rgb(10, 102, 194);
+    /* width: 80px;
+    height: 40px; */
+    width: 25%;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-left: 5px;
+    padding:10px 15px;
+}
+
+.link_save > a{
+    font-weight: 700;
+    color: rgb(10, 102, 194);
+    text-decoration: none;
+}
+
+.boot_back{
+    background-color: white;
+    width: 250px;
+    /* height: 30px; */
+    padding: 8px;
+}
+
+.boot_start{
+    background-color: rgb(121, 82, 179);
+    /* width: 120px;
+    height: 30px; */
+    width: 48%;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.boot_start > a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.boot_dwn{
+    background-color: transparent;
+    border: 1px solid rgb(121, 82, 179);
+    /* width: 120px;
+    height: 30px; */
+    width: 48%;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.boot_dwn > a{
+    font-weight: bold;
+    color: rgb(121, 82, 179);
+    text-decoration: none;
+}
+
+.daraz_back{
+    background-color: rgb(64, 34, 172);
+    /* width: 140px;
+    height: 30px; */
+    padding: 15px;
+}
+
+.daraz_back > button{
+    background-color: rgb(200, 0, 0);
+    /* width: 140px;
+    height: 30px; */
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 8px;
+}
+
+.daraz_back > button > a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.bikroy_back{
+    background-color: rgb(15, 151, 110);
+    /* width: 140px;
+    height: 40px; */
+    padding: 10px 20px;
+}
+
+.bikroy_back > button{
+    background-color: rgb(255, 200, 0);
+    /* width: 140px;
+    height: 40px; */
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+}
+
+.bikroy_back > button > a{
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(119, 65, 43);
+    text-decoration: none;
+}
+
+.sample_back{
+    background: white;
+    /* width: 150px;
+    height: 50px; */
+    padding: 15px 25px;
+}
+
+.sample_button{
+    background: linear-gradient(90deg, rgb(92, 66, 170) 0%, rgb(146, 254, 157) 100%);
+    /* width: 150px;
+    height: 50px; */
+    cursor: pointer;
+    border: 5px solid #ebeaea;
+    border-radius: 25px;
+    padding: 10px 30px;
+    box-shadow: 0 0 25px 3px #5c42aa; 
+}
+
+.sample_back > button > a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+button{
+    transition: opacity 0.2s;
+}
+
+button:hover{
+    opacity: 0.6;
+}
+
+button:active{
+    opacity: 0.6;
+}

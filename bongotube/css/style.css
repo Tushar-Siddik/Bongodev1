@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    font-size: 62.5%;
+} 
+
+body{
+    background-color: #000000;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav__bar{
+    margin: 10px 5px;
+}
+
+.hamburger__icon, .site__title{
+    font-size: 2.8rem;
+    display: inline;
+    cursor: pointer;
+}
+
+.site__title{
+    margin-left: 30vw;
+    color: orangered;
+    border: 2px dashed grey;
+    border-top: none;
+    padding: 0 10px 5px 10px;
+    transition: color 1s;
+}
+
+.site__title:hover{
+    color: orange;
+}
+
+.hamburger__icon:hover{
+    color: grey;
+}
+
+.content{
+    width: 340px;
+    margin: 10px 10px;
+    display: inline-block;
+}
+
+.video__thumb{
+    margin-bottom: 20px;
+    transition: transform 1s, opacity 1s;
+}
+
+.video__thumb:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+
+.video__thumb > img{
+    width: 100%;
+}
+
+/* .info__bottom{
+    display:inline-block;
+    width: 100%;
+} */
+
+.channel__thumb{
+    width: 60px;
+    display: inline-block;
+    transition: rotate 2s;
+
+}
+
+.channel__thumb:hover{
+    rotate: 720deg;
+}
+
+.channel__thumb > img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+.video__info{
+    width: 268px;
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: top;
+}
+
+.video__title{
+    font-size: 2.8rem;
+}
+
+.video__title:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #d4d4d4;
+}
+
+.video__analytics{
+    margin-top: 18px;
+    font-size: 2rem;
+    color: grey;
+}
+
+.video__analytics >p:hover:nth-child(1), .video__analytics >p:hover:nth-child(2){
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+

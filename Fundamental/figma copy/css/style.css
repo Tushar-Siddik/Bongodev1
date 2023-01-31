@@ -1,0 +1,24 @@
+body{
+    width: 420px;
+    background-color: rgb(180, 178, 178);
+}
+
+button{
+    width: 400px;
+    height: 60px;
+    background-color: rgb(233, 226, 217);
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(248, 245, 241);
+}
+button > a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+footer{
+    color:brown;
+    width: 420px;
+    margin: 0 130px;
+}

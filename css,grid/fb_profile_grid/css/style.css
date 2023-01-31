@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 20px;
+}
+
+.heading1{
+    padding: 0 20px 20px 0;
+}
+
+.grid__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.banner__container{
+    display: grid;
+    width: 250px;
+    grid-template-columns: 100%;
+    grid-template-rows: 250px 1fr;
+    box-shadow: 0 0 5px 1px grey;
+}
+
+.profile__pic > img{
+    width: 100%;
+    height: 250px;
+}
+
+.profile__info{
+    padding: 10px;
+}
+
+.profile__name{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.profile__thumb{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    grid-template-rows: 40px;
+    margin: 8px 0 15px 0;
+}
+
+.profile__thumb > img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.frnd__info{
+    padding: 10px 0;
+    margin-left: 10px;
+    color: grey;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.ad__button{
+    background-color: rgb(58, 117, 245);
+    padding: 12px 10px;
+    color: white;
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.profile__name:hover, .ad__button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.ad__button:hover{
+    background-color: rgb(22, 92, 241);
+}
